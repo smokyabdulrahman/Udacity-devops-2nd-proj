@@ -11,13 +11,13 @@ variables:
   azureServiceConnectionId: 'c04dfb31-abf8-4862-a4fa-e6afafe82bdc'
 
   # Web app name
-  webAppName: ''
+  webAppName: 'housing-predict'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: ''
+  environmentName: 'prod'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
